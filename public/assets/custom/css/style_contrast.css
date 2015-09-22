@@ -182,7 +182,7 @@
   top: 0;
   left: 0;
   background-color: #e8e8e8;
-  background: url("../images/section-bg01.jpg") no-repeat center center;
+  /*background: url("../images/section-bg01.jpg") no-repeat center center;*/
   background-size: cover;
   will-change: transform;
   z-index: -1;
@@ -200,7 +200,7 @@
   top: 0;
   left: 0;
   background-color: #e8e8e8;
-  background: url("../images/section-bg02.jpg") no-repeat center center;
+  /*background: url("../images/section-bg02.jpg") no-repeat center center;*/
   background-size: cover;
   will-change: transform;
   z-index: -1;
@@ -218,7 +218,7 @@
   top: 0;
   left: 0;
   background-color: #e8e8e8;
-  background: url("../images/section-bg03.jpg") no-repeat center center;
+  /*background: url("../images/section-bg03.jpg") no-repeat center center;*/
   background-size: cover;
   will-change: transform;
   z-index: -1;
@@ -236,7 +236,7 @@
   top: 0;
   left: 0;
   background-color: #e8e8e8;
-  background: url("../images/section-bg04.jpg") no-repeat center center;
+  /*background: url("../images/section-bg04.jpg") no-repeat center center;*/
   background-size: cover;
   will-change: transform;
   z-index: -1;
@@ -254,7 +254,25 @@
   top: 0;
   left: 0;
   background-color: #e8e8e8;
-  background: url("../images/section-bg05.jpg") no-repeat center center;
+  /*background: url("../images/section-bg05.jpg") no-repeat center center;*/
+  background-size: cover;
+  will-change: transform;
+  z-index: -1;
+}
+
+.e-bg-section06 {
+  overflow: hidden;
+  position: relative;
+}
+.e-bg-section06::before {
+  content: ' ';
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #e8e8e8;
+  /*background: url("../images/section-bg05.jpg") no-repeat center center;*/
   background-size: cover;
   will-change: transform;
   z-index: -1;
