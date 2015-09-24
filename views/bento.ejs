@@ -99,11 +99,9 @@
        <div class="container">
           <div id="page-title">
 				 <div class="page-title-details">
-					 <h1 class="font-accident-one-light">Spread Betting Platform</h1>
+					 <h1 class="font-accident-one-light">One Bet with Multiple Bookmakers</h1>
 					 <ul>
-						 <li>Angular</li>
-                         <li>/</li>
-						 <li>TypeScript</li>
+						 <li>Hedge Betting Platform</li>
 					 </ul>
 				 </div>
           </div>
@@ -174,7 +172,7 @@
               <p>
                   The business model for BetClearer was simple. Take the top sporting gamblers in the UK and provide a
                   means for them to place large bets, something that traditionally was difficult but could be solve with
-                  technology.  This something the big bookmakers active protect against and would eventually mean the
+                  technology.  This is something the big bookmakers active protect against and would eventually mean the
                   end of BetClearer.  While some might say this was not the most ethical project I've worked on, I found
                   it incredibly interesting from an engineering point of view.
               </p>
@@ -185,14 +183,14 @@
                     and I learnt loads off them.  This was the first time any of them had used AngularJS or implemented a
                     SPA and their rate of take up was impressive.  There was a little resistance to red/green and high
                     test coverage from some quarters but this some subsided after a couple of weeks with no debugging.
-                    Sometimes you luck out with a team and this was one of them, would love to build something else with
-                    this lot again sometime.
+                    Sometimes you luck out with a team and this was one of them, I would love to build something else with
+                    this lot again.
                 </p>
                 <h3 class="font-accident-one-medium uppercase">Architecture</h3>
                 <p>
-                    It was a bit like tin cans and string so I'll put this as simply as I can. Firstly a little overview
+                    The architechure was a bit like tin cans and string so I'll put this as simply as I can. Firstly a little overview
                     of the process; BetClearer have a list of people who never use bookmakers and agree, for a fee, to
-                    let BetClearer uss their details to place bets.  A stake comes in, it is then place over multiple
+                    let BetClearer use their details to place bets.  A stake comes in, it is then place over multiple
                     online accounts using the agents.  It wins, the money is recouped (or not as it happened) and the
                     winnings are paid back minus a commission.
                     </p>
@@ -201,7 +199,7 @@
                     pricing feed from Bento.  Bento spoke to SportsBook through a restful api and cached individual hedges
                     again the true stake.  Behind Bento's API was a windows service.  This service employed Selenium to
                     scrape price off the bookie and place then both in Bento and SportsBook, it ran continuously.  Bento
-                    also used the information it had through it agent management and the screen scrapping service to
+                    also used the information it had through agent management and the screen scrapping service to
                     place the hedges too.
                 </p>
                 <h3 class="font-accident-one-medium uppercase">Technologies</h3>
@@ -239,11 +237,12 @@
 
         <div class="container isotope-container">
 
-          <h3 class="font-accident-one-bold uppercase">Related Products</h3>
-          <p>
-            The contribution winning the FACE award is selected by a jury from the entries in the <br>"Human Rights in Cinema" section of the festival. This includes both documentaries and feature <br>films investigating social change and individual dramas.
-          </p>
-          <div class="dividewhite3"></div>
+            <h3 class="font-accident-one-bold uppercase">Related Projects</h3>
+            <p>
+                Here are some projects that use similar technologies
+            </p>
+
+            <div class="dividewhite3"></div>
 
             <div id="posts" class="row">
                 <div id="1" class="item web col-md-3 nopadding">
@@ -324,8 +323,8 @@
                     <div class="infoblock">
                         <!-- About Widget -->
                         <h2 class="font-accident-one-bold">About</h2><a id="about"></a>
-                        <p>Hello, I'm a software engineer of 20 years.  I built my first dynamic website in 1995 and just love internet technologies.  I've seen a few changes over the years for CGI bins to Javascript in
-                            databases in the new world of server side JS.  There are loads of industries I worked in now and I've been very lucky in the people I've worked with, every day is a school day.
+                        <p>Hello, I'm a software engineer of 20 years.  I built my first dynamic website in 1995 and just love internet technologies.  I've seen a few changes over the years from CGI bins to Javascript in
+                            databases in the new world of server side JS.  There are loads of industries I worked in and I've been very lucky with the people I've worked with, every day is a school day.
                             How we as humans make software fascinates me, stopping the entropy and keeping it simple stupid.</p>
 
                         <p>London has been home for more than 15 years but I' a country bumpkin really.  If I'm not out with my dogs or shooting arrows then I'm probably under my Land Rover or

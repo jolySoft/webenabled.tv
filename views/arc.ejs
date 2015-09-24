@@ -101,9 +101,7 @@
 				 <div class="page-title-details">
 					 <h1 class="font-accident-one-light">Voyage Estimation & Fixtures</h1>
 					 <ul>
-						 <li>Angular</li>
-                         <li>/</li>
-						 <li>TypeScript</li>
+						 <li>Shipping Brokerage Platform</li>
 					 </ul>
 				 </div>
           </div>
@@ -170,8 +168,8 @@
               <h3 class="font-accident-one-medium uppercase">Overview</h3>
               <p>
                 Clarksons are a very old shipping brokerage, about 180 years old.  However their development team is
-                  relatively new, about 6 years old.  Over the years they have a disparate set of legacy desktop
-                  application to support both estimation and fixture.  In addition each department had their own set of
+                  relatively new, about 6 years old.  Over the years they have collected a disparate set of legacy desktop
+                  application to support both voyage estimation and fixtures.  In addition each department had their own set of
                   these applications.  Arc is the replacement for all of these.
               </p>
                 <p>
@@ -182,12 +180,12 @@
                 </p>
                 <h3 class="font-accident-one-medium uppercase">Approach</h3>
                 <p>
-                    After spending sometime assessing the state of play, the first port of call was identify the baby from
+                    After spending sometime assessing the state of play, the first port of call was identifying the baby from
                     the bath water and ensure the right one was disposed of.  The general architecture and framework
                     selection was sound but there were no use of SOLID and the onion separation of DDD had was completely
-                    ignored.  In addition to this the EF implementation was using an EDMX causing collition between
+                    ignored.  In addition to this the EF implementation was using an EDMX causing collisions between
                     engineers in the team.  Because of the EDMX the domain was split over 2 assemblies using partial
-                    classes.  This had lead to application service to be place in the web api controller where repositories
+                    classes.  This had lead to application service logic being place in the web api controller where repositories
                     were called directly.
                 </p>
                 <p>
@@ -197,13 +195,13 @@
                     methods over 800 line and a couple over 1500.  These were broken down and in some case a single
                     method became multiple classes.  Before an individual refactoring took place any test that could be
                     put in were but because the poor code design this was rarely possible.  However as a method became
-                    multiple public classes, meaningfull AAA unit test were implement in a red green manor if possible.
+                    multiple public classes, meaningfull AAA unit tests were implement in a red green manor if possible.
                     Over my time the test cover increased 4 fold.
                 </p>
                 <p>
                     Next step was to have a look at the Angular/TypeScript implementation.  This was in a better shape
-                    but some golden rules had been broken that was stopping an unit testing being implemented.  It was
-                    obvious this was due to some global variables and while test could have been put in the set for each
+                    but some golden rules had been broken that was stopping unit testing being implemented.  It was
+                    obvious this was due to some global variables and while test could have been put in the set up for each
                     BDD fixture made this prohibitive.  Once removed the jasmine/karma implementation went pretty smoothly.
                 </p>
                 <h3 class="font-accident-one-medium uppercase">Technologies</h3>
@@ -328,8 +326,8 @@
                     <div class="infoblock">
                         <!-- About Widget -->
                         <h2 class="font-accident-one-bold">About</h2><a id="about"></a>
-                        <p>Hello, I'm a software engineer of 20 years.  I built my first dynamic website in 1995 and just love internet technologies.  I've seen a few changes over the years for CGI bins to Javascript in
-                            databases in the new world of server side JS.  There are loads of industries I worked in now and I've been very lucky in the people I've worked with, every day is a school day.
+                        <p>Hello, I'm a software engineer of 20 years.  I built my first dynamic website in 1995 and just love internet technologies.  I've seen a few changes over the years from CGI bins to Javascript in
+                            databases in the new world of server side JS.  There are loads of industries I worked in and I've been very lucky with the people I've worked with, every day is a school day.
                             How we as humans make software fascinates me, stopping the entropy and keeping it simple stupid.</p>
 
                         <p>London has been home for more than 15 years but I' a country bumpkin really.  If I'm not out with my dogs or shooting arrows then I'm probably under my Land Rover or
